@@ -1,0 +1,207 @@
+@font-face {
+	font-family: "Lostar";
+	src: local('../fonts/Lostar.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Trop Land";
+    src: local('../fonts/TropiLand.ttf') format ('truetype');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(64,107,140);
+	color: rgb(225,217,193);
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+
+/*Header*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.logo {
+	display: flex;
+	padding: 10px;
+	 
+}
+
+.nav {
+	display: flex;
+	gap: 20px;
+}
+
+.nav a {
+	color: rgb(225,217,193);
+	font-family: Tropi Land; 
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500px;
+	padding: 5px 10px;
+}
+
+.nav a:hover {
+    color: orange;
+	font-weight: 700;
+}
+
+ /*TEXT STYLING*/
+ h1 {
+	color:rgb(225,217,193) ;
+	font-family: "Lostar"; 
+	font-size: 50px;
+    letter-spacing: 1px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 20px 10px 20px;
+}
+
+h2{
+    font-family: Tropi Land;
+    color: rgb(228, 197, 175);
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+p {
+	font-size: 18px;	
+	color: rgb(225,217,193);
+    text-align: justify;
+}
+
+/*topFive*/
+
+/*Top Five*/
+
+.box-1 {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.gallery {
+	text-align: center;
+	padding: 30px;
+}
+
+.artwork {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+    justify-content: center;
+}
+
+.art {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.art img {
+	width: 100%;
+    height: auto;
+	margin-bottom: 10px;
+}
+
+
+hr{
+    border: 1px dashed oldlace;
+}
+
+/*Current Rotation*/
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px 20px 30px 20px;
+}
+
+.box-2 h1 {
+    text-align: left;
+}
+
+.Tracks {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.song img {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	padding-bottom: 15px;
+}
+
+.song iframe {
+	width: 100%;
+	height: 152px;
+	margin-top: 10px;
+}
+
+.song li{
+    list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*Footer*/ 
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 10px 20px;
+	margin-top: auto;
+}
+
+.contact {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+	margin: 0 150px 0 150px;
+	gap: 10px;
+}
+
+.social-links {
+	justify-content: center;
+	padding: 10px;
+	margin: 20px;
+}

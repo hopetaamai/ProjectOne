@@ -1,0 +1,149 @@
+@font-face {
+	font-family: "Lostar";
+	src: local('../fonts/Lostar.ttf') format('truetype');
+}
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(64,107,140);
+	color: rgb(225,217,193);
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+
+/*Header*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	padding: 10px;
+	padding: 10px;
+    margin: 20px 
+}
+
+.nav {
+	display: flex;
+	gap: 20px;
+	margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav a {
+	color: rgb(225,217,193);
+	font-family: Tropi Land; 
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500px;
+	padding: 5px 10px;
+}
+
+.nav a:hover {
+    color: orange;
+	font-weight: 700;
+}
+
+ /*TEXT STYLING*/
+ h1 {
+	color:rgb(225,217,193) ;
+	font-family: "Lostar"; 
+	font-size: 50px;
+    letter-spacing: 1px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 20px 10px 20px;
+}
+
+h2{
+    font-family: Tropi Land;
+    color: rgb(228, 197, 175);
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+p {
+	font-size: 18px;	
+	color: rgb(225,217,193);
+	text-align: justify;
+}
+
+
+/*Homepage*/
+/*layout inspired by Grace Davidson*/ 
+
+.content {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 40px;
+	margin: 60px 30px 60px 30px;
+	padding: 20px;
+}
+.title {
+	text-align: left;
+}
+
+.bio {
+	text-align: left;
+	max-width: 60%;
+	padding: 20px;
+	flex: 1;
+}
+
+.image {
+	flex: 1;
+	max-width: 600px;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+}
+
+
+/*Footer*/ 
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 10px 20px;
+	margin-top: auto;
+}
+
+
+.contact {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+	margin: 0 150px 0 150px;
+	gap: 10px;
+}
+
+.social-links {
+	justify-content: center;
+	padding: 10px;
+	margin: 20px;
+}
+
+
+

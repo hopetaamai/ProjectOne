@@ -1,0 +1,144 @@
+@font-face {
+	font-family: "Lostar";
+	src: local('../fonts/Lostar.ttf') format('truetype');
+}
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(64,107,140);
+	color: rgb(225,217,193);
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+
+/*Header*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	padding: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.nav {
+	display: flex;
+	gap: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav a {
+	color: rgb(225,217,193);
+	font-family: Tropi Land; 
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500px;
+	padding: 5px 10px;
+}
+
+.nav a:hover {
+    color: orange;
+	font-weight: 700;
+}
+
+ /*TEXT STYLING*/
+h1 {
+	font-family: "Lostar"; 
+	font-size: 50px;
+    letter-spacing: 1px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 20px 10px 20px;
+}
+h2{
+    font-family: Tropi Land;
+    color: rgb(228, 197, 175);
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+p {
+	font-size: 18px;	
+	color: rgb(225,217,193);
+    padding: 10px;
+    margin: 10px 0px; 
+    text-align: justify;
+    align-content: baseline;
+}
+
+/*Footer*/ 
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 10px 20px;
+	margin-top: auto;
+}
+
+.contact {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+	margin: 0 150px 0 150px;
+	gap: 10px;
+}
+
+.social-links {
+	justify-content: center;
+	padding: 10px;
+	margin: 20px;
+}
+
+/*INSPIRATIONS*/
+
+
+.artists {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+}
+
+.artist {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 300px;
+}
+
+.artist img {
+    align-items: baseline;
+	max-width: 100%;
+	height: auto;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.img:hover {
+    box-shadow: 10px;
+}
